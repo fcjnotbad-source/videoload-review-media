@@ -4,7 +4,7 @@ Public screen recording for the Google Play foreground service permission declar
 
 This repository contains review media and its playback page. It does not contain the VideoLoad application source code, signing material, or review access credentials.
 
-The recording demonstrates a user-initiated download, background transfer, ongoing notification, and pausing the download.
+The recording demonstrates a user-initiated download, background transfer, ongoing notification, and returning to the download list.
 
 Recorded on Android 15 with Play debug build 1.6.10-debug, using the same download service implementation as the Play release. Network speed was limited to make progress observable.
 
