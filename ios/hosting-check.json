@@ -1,5 +1,112 @@
 {
-  "status": "Awaiting first published-file verification",
+  "checkedAtUTC": "2026-11-10T02:35:57.465694+00:00",
   "mp4URL": "https://fcjnotbad-source.github.io/videoload-review-media/ios/media/videoload-original-demo.mp4",
-  "note": "This record will be replaced with actual public-file Range and ETag results after the Pages build; no transport capability is asserted yet."
+  "rangeSupported": true,
+  "tailRangeCorrect": true,
+  "strongETag": true,
+  "firstByteResponse": {
+    "status": 206,
+    "contentRange": "bytes 0-0/5416409",
+    "contentLength": "1",
+    "etag": "\"6af282ca-52a5d9\"",
+    "acceptRanges": "bytes"
+  },
+  "lastByteResponse": {
+    "status": 206,
+    "contentRange": "bytes 5416408-5416408/5416409",
+    "contentLength": "1",
+    "etag": "\"6af282ca-52a5d9\"",
+    "acceptRanges": "bytes"
+  },
+  "matchingIfRangeStatus": 206,
+  "matchingIfRangeCorrect": true,
+  "mismatchingIfRangeStatus": 200,
+  "files": [
+    {
+      "filename": "videoload-original-demo.mp4",
+      "status": 200,
+      "bytes": 5416409,
+      "sha256": "6feee2cf7cd4768101be5ff8e8e39823d223f5f71c5c5ebb58f02f97087c5ea1",
+      "mimeType": "video/mp4"
+    },
+    {
+      "filename": "poster.png",
+      "status": 200,
+      "bytes": 913850,
+      "sha256": "39a08c7b2f0bcb3ac274ac43c9404012f5a31ced41db2b23b35a25ab11b7968c",
+      "mimeType": "image/png"
+    },
+    {
+      "filename": "hls/index.m3u8",
+      "status": 200,
+      "bytes": 431,
+      "sha256": "afb6c51d0389132f1cb7ba6b56914fd699051e8d5395e940460d6728edfcdc65",
+      "mimeType": "application/vnd.apple.mpegurl"
+    },
+    {
+      "filename": "hls/init.mp4",
+      "status": 200,
+      "bytes": 672,
+      "sha256": "1834e6a4ec75c31cc940d75e3d6a367efad4b31c264d754eafef527ce5430d22",
+      "mimeType": "video/mp4"
+    },
+    {
+      "filename": "hls/segment-00.m4s",
+      "status": 200,
+      "bytes": 282416,
+      "sha256": "5e2e628b3c75dd1b9f049e77f53eb4f2e7224092f4b05bd2e9dc6207824cb95f",
+      "mimeType": "video/iso.segment"
+    },
+    {
+      "filename": "hls/segment-01.m4s",
+      "status": 200,
+      "bytes": 386483,
+      "sha256": "0dca0b76cbab04ae3edb3cd8020f513b7376439aa89f5d98b0457f4de4360e9f",
+      "mimeType": "video/iso.segment"
+    },
+    {
+      "filename": "hls/segment-02.m4s",
+      "status": 200,
+      "bytes": 737002,
+      "sha256": "5e7392cea4ba75ae86f689243fd14e035c8b747f4e4a5866e6535a147cfe8e7b",
+      "mimeType": "video/iso.segment"
+    },
+    {
+      "filename": "hls/segment-03.m4s",
+      "status": 200,
+      "bytes": 699686,
+      "sha256": "71ead56731455a633f2f303d3d4ed84222371fbe926205e1e47febf941cef803",
+      "mimeType": "video/iso.segment"
+    },
+    {
+      "filename": "hls/segment-04.m4s",
+      "status": 200,
+      "bytes": 699759,
+      "sha256": "fed8e6664f017bafae13e02e5eb2d8b987763f2a3f1ee074b14251236bba2e01",
+      "mimeType": "video/iso.segment"
+    },
+    {
+      "filename": "hls/segment-05.m4s",
+      "status": 200,
+      "bytes": 682834,
+      "sha256": "cfa7f9123bfda999f82a8ff3c1c7ec0a891e6b9e1b98d97b8191e6848738cad6",
+      "mimeType": "video/iso.segment"
+    },
+    {
+      "filename": "hls/segment-06.m4s",
+      "status": 200,
+      "bytes": 716691,
+      "sha256": "437a395828af3a2e1f79f5aaac3dfce6d9ff19ef0378d59b577eb0c390936a74",
+      "mimeType": "video/iso.segment"
+    },
+    {
+      "filename": "hls/segment-07.m4s",
+      "status": 200,
+      "bytes": 699234,
+      "sha256": "4f49a6d8ccfc7e385f04e10157b62e32dedaedeee421fa6625fd0b1ce8f58823",
+      "mimeType": "video/iso.segment"
+    }
+  ],
+  "scope": "Only these original demo files were checked. This is not a guarantee about other sources or iOS background scheduling.",
+  "snapshotNote": "These are observations at checkedAtUTC. A later GitHub Pages deployment may change an ETag even if file bytes stay identical; a downloader must obtain the current validator itself."
 }
